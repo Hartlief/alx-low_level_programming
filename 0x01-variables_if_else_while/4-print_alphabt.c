@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 'prints alphabets except 'q' and 'e'
+ * Description: 'prints alphabets except q and e'
  * Return: Always 0
  */
 int main(void)
