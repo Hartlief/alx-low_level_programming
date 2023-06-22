@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase, except for q and e.
- *
- * Return: Always 0.
+ * main - Entry point
+ * Description: 'prints alphabets except 'q' and 'e'
+ * Return: Always 0
  */
 int main(void)
 {
@@ -11,14 +11,14 @@ int main(void)
 
 	while (n <= 122)
 	{
-		if (n == 101 || n == 113)
+		if (n == 101 || n == 133)
 		{
 			n++;
 			continue;
-		}	
+		}
 		putchar(n);
 		n++;
 	}
 	putchar('\n');
 	return (0);
-}	
+}
