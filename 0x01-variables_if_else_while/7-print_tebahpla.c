@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main -  prints the lowercase alphabet in reverse,
- * followed by a new line.
- * Return: Always 0.
+ * main - Entry point
+ * Description: 'prints alphabet in reverse'
+ * Return: always 0
  */
 int main(void)
 {
 	int n = 122;
-	
-	while (n >= 97);
+
+	while( n >= 97)
 	{
 		putchar(n);
 		n--;
